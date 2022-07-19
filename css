@@ -1,0 +1,227 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+   margin: 0em;
+  font-size: 30px;
+  text-align: center;
+  background-image: linear-gradient(to right,#B48EAE, #2EC4B6, #60D394, #F28F3B);
+}
+
+/* STYLE TEXT */
+main{
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 5%;
+  margin-left: 5%;
+  text-align: center; 
+}
+h1 {
+  color:#7C0B2B;
+}
+#head{
+  text-align: left;
+}
+h2 {
+  color:#260C1A
+}
+p{
+  color: #3C0919;
+}
+.list{
+  list-style: square inside;
+}
+/* STYLE IMAGES */
+.pic{
+  border-radius: 20%;
+  width: 100%;
+}
+#pic{
+  border-radius: 20%;
+  width: 100%;
+}
+
+.flex-container{
+  display: flex;  
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flex-item{
+
+ flex-basis: 100%; 
+  margin: 1%;
+  
+}
+.attr {
+  font-size: 14px;
+  text-align: center;
+  
+  padding-top: 10px;
+}
+/* STYLE NAV BAR */
+ul{
+  list-style-type: none;
+  background-color: #AF8D86;
+  padding: 0em;
+  overflow: hidden;
+}
+li{
+  display: inline;
+  float: left;
+}
+li a{
+  text-decoration: none;
+  color: #260C1A;
+  font-size: 1.3em;
+  padding: 1em;
+}
+li a:hover{background-color: #EDBFC6}
+
+
+/* STYLE BUTTONS */
+#but {
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  background-color: #7C0B2B;
+  color:#EDBFC6;
+}
+#but:hover{
+  background-color: #521945;
+}
+#factBut {
+  background: #521945;
+  color: #EDBFC6;
+  border-style: none;
+  border-radius: 20%;
+  
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+#formBtn {
+  background: #912F56;
+  color: #EDBFC6;
+  border-style: none;
+  border-radius: 20%;
+  
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+/* personalize it */
+.questions {
+  background: #521945;
+  border-radius: 10px;
+
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+
+  font-family: 'Caveat', cursive;
+  font-size: 0.9em;
+  color: #EDBFC6;
+}
+
+.formS {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  margin-right: 10px;
+
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+input {
+  border-style: none;
+  border-radius: 5px;
+  width: 60%;
+}
+ #formReturn {
+   margin-top: 5%;
+   margin-left: 15%;
+   margin-right: 15%;
+
+  color: #3C0919; 
+ }
+
+
+.resource {
+  margin-top: 10px;
+  margin-left: 15%;
+  margin-right: 15%;
+  Text-align: left;
+}
+
+.resource li {
+  margin-bottom: 15px;
+} 
+/* ADD MORE! */
+ .getFact {
+  background: #EDBFC6;
+  border-radius: 10px;
+  border-style: none;
+
+  padding: 15px;
+
+  margin-top: 30px;
+  margin-left: 35%;
+  margin-right: 35%;
+
+  font-family: 'Caveat', cursive;;
+  font-size: 0.9em;
+  text-align: center;
+  line-height: 1.2em;
+  color: #0D38D3;
+}
+
+#fact {
+  border-style: none;
+  padding: 15px;
+
+  margin-top: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+
+  font-family: 'Caveat', cursive;
+  font-size: 1em;
+  text-align: center;
+  line-height: 1em;
+  color: #3C0919;
+
+}
+
+
+/* change css based on screeen size*/
+/*Breakpoin1*/
+@media screen and (max-width:850px){
+
+  .flex-container{
+    flex-wrap: wrap;
+  }
+}
+/* Breakpoint 2*/
+@media screen and (max-width:700px){
+
+  .flex-container{
+    flex-wrap: wrap;
+  }
+}
+
+/* Breakpoint 3*/
+@media screen and (max-width:560px){
+
+  .flex-container{
+    flex-wrap: wrap;
+  }
+}
